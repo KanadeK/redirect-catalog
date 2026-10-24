@@ -1,0 +1,16 @@
+name: Bug report
+description: Report an incorrect result with a synthetic input
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Synthetic reproducer, command, expected and actual results
+      description: Remove private data and credentials.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Python version and operating system
+    validations:
+      required: true
